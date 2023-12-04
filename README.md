@@ -1,6 +1,6 @@
 # Nintendo Gameboy™
 
-Final project for HTML, CSS, & JS Fundementals (COMP1002). Visit it [here](https://github.com/blekmus/college-web-final)
+Final project for HTML, CSS, & JS Fundementals (COMP1002). Visit it [here](https://github.com/blekmus/college-web-final). Developed on Replit.
 
 ## Team Members
 
