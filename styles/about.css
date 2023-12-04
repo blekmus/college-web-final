@@ -1,0 +1,82 @@
+.header {
+  height: calc(100vh - 60px);
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  padding-left: 50px;
+  overflow: hidden;
+}
+
+.header .left h1 {
+  font-size: 65px;
+  color: #1E1E1E;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+}
+
+.header .left h2 {
+  font-size: 25px;
+  color: #1E1E1E;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+}
+
+.header .right img {
+  width: 130%;
+}
+
+.description {
+  padding: 200px 50px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 80px;
+}
+
+.description .desc-item {
+  display: grid;
+  grid-template-columns: 40% 1fr;
+}
+
+.description .desc-item p {
+  color: #D5D5D5;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+}
+
+.image-content img {
+  width: 100%;
+  display: block;
+}
+
+.history {
+  padding: 100px 0;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+@media (max-width: 800px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    row-gap: 100px;
+    padding: 100px 0px;
+    height: initial;
+  }
+
+  .description {
+    padding: 70px 25px;
+
+  }
+
+  .description .desc-item {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
+  .history {
+    padding: 50px 0;
+  }
+}

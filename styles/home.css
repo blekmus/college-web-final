@@ -1,0 +1,157 @@
+.header {
+  width: 100%;
+  border: solid 5px #719B0D;
+}
+
+.header .header-image {
+  width: 100%;
+  display: block;
+}
+
+.text-content {
+  padding: 100px 50px;
+}
+
+.text-content h1 {
+  font-size: 65px;
+  color: #D5D5D5;
+  margin-bottom: 30px;
+  font-family: 'Pixeloid', sans-serif;
+  line-height: 100%;
+}
+
+.text-content h2 {
+  font-size: 60px;
+  font-family: 'Pixeloid', sans-serif;
+}
+
+.text-content h2.blue {
+  color: #3d47d3;
+}
+
+.text-content h2.red {
+  color: #F45050;
+}
+
+.image-content img {
+  width: 100%;
+  display: block;
+}
+
+.action-content {
+  padding: 100px 0;
+  position: relative;
+}
+
+.action-content .rainbow-text {
+  background-image: repeating-linear-gradient(90deg, #14ffe9 0%, #ffc800 16.66666%, #ff00e0 33.33333%, #14ffe9 50.0%, #ff00e0 33.33333%);
+  animation: move 60s infinite linear alternate;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: #0000;
+  background-clip: text;
+
+  padding: 0 50px;
+  font-size: 65px;
+  color: #D5D5D5;
+  font-family: 'Pixeloid', sans-serif;
+  line-height: 100%;
+}
+
+@keyframes move {
+  0% {
+    background-position: 0 0
+  }
+
+  100% {
+    background-position: 15000px 0
+  }
+}
+
+.action-content .action-absolute {
+  position: relative;
+  margin-top: 50px;
+}
+
+.action-content .lines {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+
+.action-content .lines hr {
+  height: 4px;
+  border: none;
+}
+
+.action-content .lines hr.blue {
+  background-color: #3d47d3;
+
+}
+
+.action-content .lines hr.red {
+  background-color: #F45050;
+}
+
+
+.action-content .content {
+  padding: 0 50px;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  width: 100%;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.action-content .content a {
+  display: block;
+  border: solid 6px #595B5F;
+  padding: 10px;
+  background-color: #80A21F;
+  color: #31622A;
+  cursor: pointer;
+  font-size: 25px;
+  font-family: 'Pixeloid', sans-serif;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.action-content .content a:hover {
+  color: #D7E894;
+  background-color: #7b9b1e;
+}
+
+@media (max-width: 800px) {
+  .text-content {
+    padding: 70px 25px;
+  }
+
+  .text-content h1 {
+    font-size: 35px;
+  }
+
+  .text-content h2 {
+    font-size: 30px;
+  }
+
+  .action-content .rainbow-text {
+    font-size: 35px;
+    padding: 0 25px;
+  }
+
+  .action-content .content {
+    padding: 0 25px;
+  }
+
+  .action-content {
+    padding: 70px 0;
+  }
+
+  .action-content .content a {
+    font-size: 19px;
+  }
+}

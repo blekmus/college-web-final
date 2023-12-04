@@ -1,0 +1,149 @@
+.header {
+  padding: 100px 50px;
+}
+
+.header h1 {
+  font-size: 50px;
+  color: #FEFEFE;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.header p {
+  color: #FEFEFE;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  text-align: center;
+  margin: auto;
+}
+
+.contact {
+  margin: 0 auto 100px auto;
+  margin-bottom: 100px;
+  background-color: #232323;
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1000px;
+}
+
+.contact .contact-info {
+    padding: 50px 30px;
+}
+
+.contact .contact-info .info-header {
+  margin-bottom: 70px;
+}
+
+.contact .contact-info .info-header h2 {
+  color: #FEFEFE;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.contact .contact-info .info-header p {
+  font-size: 15px;
+  color: #c4c4c4;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+}
+
+.contact .form-section {
+  padding: 50px 30px;
+  background-color: #FEFEFE;
+  border-radius: 5px;
+}
+
+.contact .info-content {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.contact .info-content .info-item {
+  display: flex;
+  column-gap: 20px;
+  align-items: start;
+}
+
+.contact .info-content .info-item svg {
+  width: 25px;
+}
+
+.contact .info-content .info-item a {
+  padding-top: 3px;
+  color: #FEFEFE;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.contact .form-section .row {
+  display: flex;
+}
+
+.contact .form-section label {
+  color: #1E1E1E;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.contact .form-section input {
+  padding: 9px 15px;
+  margin-bottom: 20px;
+  border: 1px solid #bbbbbb;
+  border-radius: 4px;
+  width: 100%;
+  margin-top: 5px;
+}
+
+.contact .form-section select {
+  padding: 9px 15px;
+  margin-bottom: 20px;
+  border: 1px solid #bbbbbb;
+  border-radius: 4px;
+  width: 100%;
+  margin-top: 5px;
+}
+
+.contact .form-section textarea {
+  padding: 9px 15px;
+  margin-bottom: 20px;
+  border: 1px solid #bbbbbb;
+  border-radius: 4px;
+  width: 100%;
+  margin-top: 5px;
+}
+
+.contact .form-section .btn {
+  cursor: pointer;
+}
+
+
+@media (max-width: 800px) {
+  .header {
+    padding: 70px 25px;
+  }
+  
+  .header h1 {
+    font-size: 35px;
+    width: 100%;
+  }
+
+  .contact {
+    display: flex;
+    flex-direction: column;
+    border-radius: 0;
+  }
+
+  .contact .form-section {
+    margin: 20px;
+  }
+}
