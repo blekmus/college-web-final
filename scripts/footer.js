@@ -10,7 +10,7 @@ function generateFooter() {
 
   // Create the image element for the footer
   var image = document.createElement('img');
-  image.src = '../images/footer_dpad.png';
+  image.src = './images/footer_dpad.png';
 
   // Append the image to the left div
   leftDiv.appendChild(image);

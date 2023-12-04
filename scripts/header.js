@@ -10,7 +10,7 @@ function generateNavigation() {
   leftLink.classList.add("left");
 
   var img = document.createElement("img");
-  img.src = "../images/nintendo_logo.png";
+  img.src = "./images/nintendo_logo.png";
   img.alt = "nintendo_icon";
   img.classList.add("icon");
 
