@@ -34,10 +34,20 @@
   margin-bottom: 100px;
 }
 
+.purchase .content .box-cont {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
 .purchase .content .box {
   display: grid;
   grid-template-columns: 50% 1fr;
   grid-gap: 50px;
+}
+
+.purchase.accessories .content .box {
+  grid-template-columns: 30% 1fr;
 }
 
 .purchase .content .box .product-image {
@@ -94,10 +104,9 @@
 .specs {
   padding: 100px 50px;
   display: grid;
-  grid-template-columns: 55% 1fr;
+  grid-template-columns: 45% 1fr;
   background-color: #FEFEFE;
   grid-gap: 50px;
-
 }
 
 .specs .left {
@@ -114,7 +123,7 @@
   margin-bottom: 30px;
   font-family: 'Pixeloid', sans-serif;
   line-height: 100%;
-  margin-top: 100px;
+  margin-top: 20px;
 }
 
 .specs .right ul {
@@ -132,6 +141,30 @@
 .image-content img {
   width: 100%;
   display: block;
+}
+
+@media (max-width: 1000px) {
+  .specs {
+    display: flex;
+    flex-direction: column;
+    padding: 25px 30px 50px 30px;
+    grid-gap: 0;
+  }
+
+  .specs .left img {
+    width: 80%;
+    margin: auto;
+    display: block;
+  }
+
+  .specs .right h1 {
+    font-size: 35px;
+  }
+
+  .specs .right li {
+    font-size: 15px;
+  }
+
 }
 
 @media (max-width: 800px) {
@@ -161,24 +194,21 @@
     margin-bottom: 20px;
   }
 
-  .specs {
+  .accesory {
+    margin-bottom: 10px;
+    height: 50px;
+    
+  }
+  
+  .accessories container {
+    align-items: center;
     display: flex;
     flex-direction: column;
-    padding: 25px 30px 50px 30px;
-    grid-gap: 0;
   }
 
-  .specs .left img {
-    width: 80%;
-    margin: auto;
-    display: block;
+  .accessory-image {
+    max-width: 100%;
+    
   }
-
-  .specs .right h1 {
-    font-size: 35px;
-  }
-
-  .specs .right li {
-    font-size: 15px;
-  }
+  
 }

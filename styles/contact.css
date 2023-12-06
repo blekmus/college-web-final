@@ -84,6 +84,12 @@
   font-size: 15px;
 }
 
+.contact .info-content .info-item a:hover {
+  color: #b6b6b6;
+  transition: color .3s ease-in-out;
+}
+
+
 .contact .form-section .row {
   display: flex;
 }

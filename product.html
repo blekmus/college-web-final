@@ -13,31 +13,35 @@
   <title>Nintendo Game Boy - Buy Now</title>
 
   <!-- Stylesheets -->
-
   <link href="./styles/base.css" rel="stylesheet" type="text/css" />
   <link href="./styles/product.css" rel="stylesheet" type="text/css" />
+
+  <!-- JavaScript files for header and footer functionality -->
+  <script src="./scripts/header.js" defer></script>
+  <script src="./scripts/footer.js" defer></script>
 </head>
 
 <body>
   <!-- Header container with primary gif and gif row -->
   <div class="header container">
-    <img class="header-image" src="./images/product_console.gif" />
+    <img class="header-image" src="./images/product_console.gif"
+      alt="gif of Game boy spinning and showing the different colours" />
     <div class="header-grid">
-      <img class="header-image" src="./images/product_console_1.gif" />
-      <img class="header-image" src="./images/product_console_2.gif" />
-      <img class="header-image" src="./images/product_console_3.gif" />
+      <img class="header-image" src="./images/product_console_1.gif" alt="gif showing the Game boy off" />
+      <img class="header-image" src="./images/product_console_2.gif" alt="gif showing gameplay on the screen" />
+      <img class="header-image" src="./images/product_console_3.gif" alt="gif showing back of Game boy" />
     </div>
   </div>
 
   <!-- Text content container with main heading and purchase call to action -->
   <div class="purchase container">
     <div class="content">
-      <h1 class="title">Nintendo GAMEBOY™</h1>
+      <h1 class="title">Nintendo GAME BOY™</h1>
       <h2 class="sub-title">Released in 1989, The Game Boy is the first product in the Game Boy family of consoles. It's
         our first 8 Bit gaming device revived in true fashion to expand on its lasting legacy. Get yours now while
         stocks last!</h2>
       <div class="box">
-        <img class="product-image" src="./images/product_gameboy.jpg" />
+        <img class="product-image" src="./images/product_gameboy.jpg" alt="front view of the classic Game boy" />
         <div class="text">
           <h2>Classic Console (White)</h2>
           <h2>$299.99</h2>
@@ -45,7 +49,7 @@
 
           <div class="includes">
             <p>Includes</p>
-            <p>- GAMEBOY Console</p>
+            <p>- GAME BOY Console</p>
             <p>- 4x AA Batteries</p>
           </div>
 
@@ -58,13 +62,13 @@
 
   <!-- Image content container -->
   <div class="image-content container">
-    <img src="./images/product_skeleton.jpg" />
+    <img src="./images/product_skeleton.jpg" alt="the hardware inside the Game boy" />
   </div>
 
   <!-- Technical specs container -->
   <div class="specs container">
     <div class="left">
-      <img src="./images/product_specs.png" />
+      <img src="./images/product_specs.png" alt="drawing of the different views of the Game boy" />
     </div>
     <div class="right">
       <h1>Technical Specifications</h1>
@@ -75,15 +79,45 @@
         <li>160 x 144 Pixels screen resolution</li>
         <li>Weight of 220g</li>
         <li>8 KB of RAM</li>
-        <li>GAMEBOYS can be linked together via serial ports</li>
+        <li>GAME BOYS can be linked together via serial ports</li>
         <li>Uses 4 AA batteries</li>
       </ul>
     </div>
   </div>
 
-  <!-- JavaScript files for header and footer functionality -->
-  <script src="./scripts/header.js"></script>
-  <script src="./scripts/footer.js"></script>
+  <!-- Accessories container -->
+  <div class="purchase accessories container">
+    <div class="content">
+      <h1 class="title">Accessories</h1>
+      <h2 class="sub-title">Official accessories designed and manufactured by Nintendo.</h2>
+      <div class="box-cont">
+        <div class="box">
+          <img class="product-image" src="./images/product_cam.png" alt="front view of the Game Boy Camera" />
+          <div class="text">
+            <h2>Game Boy Camera</h2>
+            <h2>$79.99</h2>
+            <button>Purchase</button>
+          </div>
+        </div>
+        <div class="box">
+          <img class="product-image" src="./images/product_printer.png" alt="view of the Game Boy printer" />
+          <div class="text">
+            <h2>Game Boy Printer</h2>
+            <h2>$105.99</h2>
+            <button>Purchase</button>
+          </div>
+        </div>
+        <div class="box">
+          <img class="product-image" src="./images/product_multi.png" alt="view four player adapter" />
+          <div class="text">
+            <h2>Four Player Adpater</h2>
+            <h2>$89.99</h2>
+            <button>Purchase</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 
 </html>
